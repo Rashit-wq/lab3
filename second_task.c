@@ -22,13 +22,10 @@ int main() {
         return 1;
     }
 
-    // Calculate sum of divisors
     int sum = sum_of_divisors(number);
 
-    // Print the result
     printf("Sum of proper divisors (excluding the number itself) of %d is: %d\n", number, sum);
 
-    // Check for perfect number
     if (sum == number) {
         printf("%d is a PERFECT number.\n", number);
     } else {
